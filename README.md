@@ -1,4 +1,11 @@
-A windows forms application that works similar to your contact app on your phone exept it uses a database to store numbers and users(admin or normal user).
-i used sql server and EF to store numbers and users.
-If you want to check it out make sure you modify the conection string in "Contacts\Contacts.DataLayer\Model\MyDbContext.cs" directory so you can run it using your own local sql server.
-This App is written in my native language.
+# Contact Management System
+A Windows Form Application for managing and storing contact information
+## Features
+- Add, edit, and delete contacts
+- Search and filter functionality
+- Secure storage with database integration
+- Two levels of access admin and user
+## Technologies
+- c#
+- Entity Framework
+- SQL Server
